@@ -14,7 +14,7 @@ public class Skywars extends JavaPlugin {
     @Override
     public void onEnable() {
         instance = this;
-        bSkywarsSolo.spawn(getServer().getWorlds().get(0).getSpawnLocation());
+        bSkywarsSolo.spawn();
         getLogger().info("Skywars plugin has been enabled!");
     }
 
